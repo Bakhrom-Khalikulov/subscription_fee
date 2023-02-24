@@ -61,7 +61,7 @@ body{
     flex-direction: column;
     height: 100%;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background-color: #fff;
 }
@@ -86,7 +86,7 @@ img{
 
 .container{
     width: 100%;
-    max-width: 1320px;
+    max-width: 1400px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 20px;
@@ -104,3 +104,70 @@ ul{
 a{
     text-decoration: none;
 }
+
+/* ************** SUBSCRIPTION STYLES STARTS ******************* */
+.sub-fee{
+    padding-left: 300px;
+    background-color: #85A5D4;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+
+.sub-fee__list{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    min-height: 336px;
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.sub-fee__item{
+    position: relative;
+    padding-top: 150px;
+    width: 250px;
+    text-align: center;
+}
+
+.sub-fee__item::before{
+    position: absolute;
+    display: block;
+    content: url(../images/device.svg);
+    top: 70px;
+    right: 110px;
+}
+
+.sub-fee__item:nth-child(2)::before{
+    content: url(../images/laptop.svg);
+}
+
+.sub-fee__item:nth-child(3)::before{
+    content: url(../images/monitor.svg)
+}
+
+.sub-fee__title{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 500;
+    color: #5572d6;
+}
+
+.sub-fee__desc{
+    font-size: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 500;
+    color: #aaabaa;
+}
+
+.sub-fee__price{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 700;
+    color: #5572d6;
+}
+
+
+
+/* ************** SUBSCRIPTION STYLES ENDS ******************* */
