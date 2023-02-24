@@ -124,26 +124,13 @@ a{
 }
 
 .sub-fee__item{
-    position: relative;
-    padding-top: 150px;
+    margin-top: 50px;
     width: 250px;
     text-align: center;
 }
 
-.sub-fee__item::before{
-    position: absolute;
-    display: block;
-    content: url(../images/device.svg);
-    top: 70px;
-    right: 110px;
-}
-
-.sub-fee__item:nth-child(2)::before{
-    content: url(../images/laptop.svg);
-}
-
-.sub-fee__item:nth-child(3)::before{
-    content: url(../images/monitor.svg)
+.sub-fee__img{
+    margin-bottom: 30px;
 }
 
 .sub-fee__title{
@@ -162,11 +149,26 @@ a{
 }
 
 .sub-fee__price{
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 700;
+    position: relative;
+}
+
+.sub-fee__dollar{
+    position: absolute;
+    color: #5572d6;
+    font-size: 15px;
+    left: 66px;
+    top: 4px;
+}
+
+.sub-fee__amount{
+    font-size: 30px;
     color: #5572d6;
 }
+
+.sub-fee__month{
+    color: #5572d6;
+}
+
 
 
 
