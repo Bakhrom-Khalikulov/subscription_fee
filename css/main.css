@@ -117,19 +117,30 @@ a{
     display: flex;
     justify-content: space-evenly;
     background-color: #fff;
-    min-height: 336px;
-    width: 900px;
+    min-height: 380px;
+    width: 1000px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
 }
 
 .sub-fee__item{
-    margin-top: 50px;
-    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    width: 350px;
     text-align: center;
+    /* transition: transform 1s ease; */
 }
 
+.sub-fee__item:hover{
+    cursor: pointer;
+    background-color: #F7F7F7;
+}
+
+
 .sub-fee__img{
+    padding-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -141,7 +152,11 @@ a{
 }
 
 .sub-fee__desc{
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
     font-size: 300;
+    font-weight: 450;
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 500;
@@ -156,11 +171,12 @@ a{
     position: absolute;
     color: #5572d6;
     font-size: 15px;
-    left: 66px;
+    left: 86px;
     top: 4px;
 }
 
 .sub-fee__amount{
+    font-weight: 700;
     font-size: 30px;
     color: #5572d6;
 }
